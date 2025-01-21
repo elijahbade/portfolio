@@ -1,0 +1,370 @@
+{
+  "heroData": {
+    "bgImgLink": "/images/background/hero-bg.jpg",
+    "imgLink": "/images/section/hero-img.jpg",
+    "title": "Elijah <br /> Ajibade",
+    "subTitle": "Hello, I’m",
+    "designation": "Full Stack Software Developer"
+  },
+  "aboutData": {
+    "imgLink": "/images/section/about.jpg",
+    "cvPdf": "/images/Resume.pdf",
+    "title": "Hi There! I'm Elijah Ajibade",
+    "subtitle": "Full Stack Software Developer With A Cutting Edge Product Sense",
+    "text": "Results-driven software engineer with a strong foundation in Mathematical Science (Computer Science), expertise in modern programming technologies, and a track record of delivering scalable, high-quality solutions. Highly skilled in team collaboration and committed to continuous learning, I strive to solve real-world challenges and contribute to organizational success. Seeking a challenging and rewarding opportunity where I can contribute my skills and experience to solve real world problems!",
+    "details": [
+      {
+        "title": "Birthday",
+        "info": "Dec 14"
+      },
+      {
+        "title": "Phone",
+        "info": "+234 806 990 5698"
+      },
+      {
+        "title": "Email",
+        "info": "developerelijah360@gmail.com"
+      },
+      {
+        "title": "From",
+        "info": "Oyo, Nigeria"
+      },
+      {
+        "title": "Language",
+        "info": "English, French (Basic)"
+      },
+      {
+        "title": "Full time",
+        "info": "Available"
+      },
+      {
+        "title": "Freelance",
+        "info": "Available"
+      }
+    ]
+  },
+  
+    "serviceData": {
+      "services": [
+        {
+          "imgLink": "/images/icon/icon1.png",
+          "title": "Problem Solving",
+          "text": "I pride myself in my ability to break down problems to it's smallest possible bits, seeing connections and patterns via critical thinking and proferring adequate solutions",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "200"
+        },
+        {
+          "imgLink": "/images/icon/icon2.png",
+          "title": "Frontend Development",
+          "text": "Creating responsive and interactive web interfaces using React, Angular, and modern CSS frameworks like Tailwind and Bootstrap for optimal user experiences.",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "300"
+        },
+        {
+          "imgLink": "/images/icon/icon3.png",
+          "title": "Backend Development",
+          "text": "Building scalable server-side applications using Node.js, Express, and PHP, with expertise in both SQL and NoSQL database management.",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "400"
+        },
+        {
+          "imgLink": "/images/icon/icon4.png",
+          "title": "Database Design",
+          "text": "Proficient in designing and implementing database solutions using MySQL and MongoDB, ensuring optimal data structure and performance.",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "500"
+        },
+        {
+          "imgLink": "/images/icon/icon5.png",
+          "title": "API Development",
+          "text": "Creating robust RESTful APIs using Node.js and Express, with TypeScript integration for enhanced code reliability and maintainability.",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "600"
+        },
+        {
+          "imgLink": "/images/icon/icon6.png",
+          "title": "Expert Trainer",
+          "text": "Experienced in facilitating digital skills training programs and technical workshops, with a proven track record of successful knowledge transfer.",
+          "effect": "zoom-out-up",
+          "duration": "500",
+          "delay": "700"
+        }
+      ]
+    },
+    "skillData": {
+      "title": "Technical Expertise and Professional Skills",
+      "text": "I bring expertise in modern web technologies and a commitment to delivering high-quality solutions. My experience spans full-stack development, with particular strength in the MERN stack and TypeScript, complemented by strong problem-solving and collaboration skills.",
+      "skills": [
+        {
+          "title": "JavaScript (TypeScript)",
+          "progress": "95%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "200"
+        },
+        {
+          "title": "React",
+          "progress": "90%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "300"
+        },
+        {
+          "title": "Node.js/Express",
+          "progress": "85%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "400"
+        },
+        {
+          "title": "MongoDB/MySQL",
+          "progress": "80%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "500"
+        },
+        {
+          "title": "HTML/CSS",
+          "progress": "90%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "600"
+        },
+        {
+          "title": "PHP",
+          "progress": "75%",
+          "effect": "fade-up",
+          "duration": "500",
+          "delay": "700"
+        }
+      ]
+    },
+  "portfolioData": {
+    "portfolioItems": [
+      {
+        "imgLink": "/images/portfolio/portfolio.jpg",
+        "imgLinkLg": "/images/portfolio/portfolio1.jpg",
+        "title": "Porfolio Website",
+        "subTitle": "I developed this sleek portfolio website you're currently browsing!",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "200"
+      },
+      {
+        "imgLink": "/images/portfolio/levcom.jpg",
+        "imgLinkLg": "/images/portfolio/levcom1.jpg",
+        "title": "LevCom Online Store",
+        "subTitle": "I developed an enterprise level ecommerce app that leverages on the shared economy to provide goods and services at an affordable rate to Nigerians",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "300"
+      },
+      {
+        "imgLink": "/images/portfolio/vconcepts.jpg",
+        "imgLinkLg": "/images/portfolio/vconcepts1.jpg",
+        "title": "V-Concepts LTD Coporate Website",
+        "subTitle": "I designed  a responsive and intutive website  (with an online bookshop inegrated) for a publishing firm using WordPress.",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "400"
+      }
+    ]
+  },
+
+
+    "blogData": {
+      "useFor": "blog",
+      "sliderSetting": {
+        "infinite": true,
+        "speed": 500,
+        "slidesToShow": 3,
+        "slidesToScroll": 1,
+        "arrows": false,
+        "dots": true,
+        "autoplay": true,
+        "autoplaySpeed": 3000,
+        "pauseOnHover": true,
+        "swipeToSlide": true,
+        "responsive": [
+          {
+            "breakpoint": 991,
+            "settings": {
+              "slidesToShow": 2,
+              "autoplay": true
+            }
+          },
+          {
+            "breakpoint": 767,
+            "settings": {
+              "slidesToShow": 1,
+              "autoplay": true
+            }
+          }
+        ]
+      
+    },
+    "informations": [
+      {
+        "imgLink": "/images/blog/blog1.jpg",
+        "designation": "elijahbade",
+        "date": "24-04-2025",
+        "title": "Making Sense of AI and Web 1,2,3",
+        "href": "#"
+      },
+      {
+        "imgLink": "/images/blog/blog2.jpg",
+        "designation": "elijahbade",
+        "date": "07-03-2023",
+        "title": "My Learnings On Micro-services",
+        "href": "#"
+      },
+      {
+        "imgLink": "/images/blog/blog3.jpg",
+        "designation": "elijahbade",
+        "date": "21-02-2025",
+        "title": "On Redemptive Tech and Emerging Civilizations",
+        "href": "#"
+      },
+      {
+        "imgLink": "/images/blog/blog4.jpg",
+        "designation": "elijahbade",
+        "date": "07-02-2025",
+        "title": "Diary of A Lagos Techie",
+        "href": "#"
+      },
+      {
+        "imgLink": "/images/blog/blog2.jpg",
+        "designation": "elijahbade",
+        "date": "31-01-2025",
+        "title": "The Cloud Revolution",
+        "href": "#"
+      },
+      {
+        "imgLink": "/images/blog/blog3.jpg",
+        "designation": "elijahbade",
+        "date": "07-03-2023",
+        "title": "Blogs vs Websites",
+        "href": "#"
+      }
+    ]
+  },
+  "reviewData": {
+    "useFor": "review",
+    "sliderSetting": {
+      "infinite": true,
+      "speed": 500,
+      "slidesToShow": 3,
+      "slidesToScroll": 1,
+      "arrows": false,
+      "responsive": [
+        {
+          "breakpoint": 991,
+          "settings": {
+            "slidesToShow": 2,
+            "autoplay": true
+          }
+        },
+        {
+          "breakpoint": 767,
+          "settings": {
+            "slidesToShow": 1,
+            "autoplay": true
+          }
+        }
+      ]
+    },
+    "informations": [
+      {
+        "imgLink": "/images/client/laz.png",
+        "title": "Mr. Lazarus Irakpo",
+        "designation": "Team Lead, LearneryResort.com",
+        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+      },
+      {
+        "imgLink": "/images/client/sarah.png",
+        "title": "Mrs. Sarah Osarumwense",
+        "designation": "Co-Founder, Abraham's House, Lekki, Lagos",
+        "text": "I found the training very impactful. Thanks for breaking down seemingly big concepts to very small understandable bits."
+      },
+      {
+        "imgLink": "/images/client/ernest.png",
+        "title": "Mr. Ernest H. Abinokhauno",
+        "designation": "Executive Director, V-Concepts Publishers LTD,",
+        "text": " 'Thank you very much for the good work, you too much!' were some of my words to Elijah during our web development process. Elijah knows his onions, I highly recommend!"
+      }
+     
+    ]
+  },
+  "resumeData": {
+    "experienceTitle": "Experience",
+    "experience": [
+      {
+        "title": "Software Engineering Fellow",
+        "duration": "2024 - 2025",
+        "subTitle": "Brave Redemptive Fellowship",
+        "text": "Deepened my knowledge of the MERN STACK, learnt  how to built enterprise-level software solutions,  I also learnt and practiced more advanced level software development concepts and best practices. I also learnt product sense making, systems thinking, collaboration, among others"
+      },
+      {
+        "title": "Web Developer (LAMP Stack)",
+        "duration": "Jan 2023 - April 2024",
+        "subTitle": "Better Place LTD",
+        "text": "Designed and developed websites and landing pages that brought in up to 800% return on investment. Setup information systems and basic networking infrastructure that increased operational efficiency."
+      }
+    ],
+    "educationTitle": "Education & Certifications",
+    "education": [
+      {
+        "title": "Bachelor of Technology, Mathematical Sciences (Computer Science)",
+        "duration": "2017 - 2022",
+        "subTitle": "Olusegun Agagu University of Science and Technology (OAUSTECH)",
+        "text": "Graduated among the top in my class, while contributing to community development via the Techtiary Club and the National Association of Computer Science Students (NACOS) among others. I also took courses on C++ and Java."
+      },
+      {
+        "title": "SHE Hacks Africa Coding Bootcamp",
+        "duration": "November 2018",
+        "subTitle": "Working to Advance Science and Technology Education for African Women (WAAW Foundation)",
+        "text": "Took a deep dive into Version control, HTML, CSS, JavaScript, Apache/MySQL, PHP, Node.js and ionic framework. My team and I built an Electronic Medical Records (EMR) website as our capstone project, emerging as first runners up in the demo"
+      },
+
+      {
+        "title": "Android Development Course For Beginners",
+        "duration": "2017",
+        "subTitle": "Google x Andela (Andela Learning Community) x Udacity ",
+        "text": "I took a deep dive into Java, building a basic ordering app as my capstone project!"
+      }
+    ]
+  },
+  "contactData": {
+    "formTitle": "Let's Talk About Impacting The World!",
+    "title": "Contact Info",
+    "subTitle": "Connect with me on social media. :-)",
+    "text": "I'm looking to connect with like-minds from all works of life and races. Let's talk about solving problems of all sizes that affect humanity!"
+  },
+  "socialData": [
+    {
+      "icon": "github",
+      "title": "GitHub",
+      "link": "https://www.github.com/elijahbade"
+    },
+    {
+      "icon": "linkedin",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/elijahbade"
+    },
+    {
+      "icon": "twitter",
+      "title": "X",
+      "link": "https://www.x.com/elijahbade"
+    },
+    {
+      "icon": "medium",
+      "title": "Medium",
+      "link": "https://www.medium.com/@elijahbade"
+    }
+  ]
+}
