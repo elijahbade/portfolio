@@ -8,7 +8,7 @@
   },
   "aboutData": {
     "imgLink": "/images/section/about.jpg",
-    "cvPdf": "/images/Resume.pdf",
+    "cvPdf": "/images/elijah_ajibade_cv.pdf",
     "title": "Hi There! I'm Elijah Ajibade",
     "subtitle": "Full Stack & Product Engineer Who Ships End to End",
     "text": "Full stack and product engineer with 3+ years of production experience across web, mobile, and email surfaces. I currently lead product and engineering at gotdot.it, a Microsoft Outlook add-in for sales teams, owning everything from schema design through React UI to AWS deployment. Previously I built a real-time multiplayer trivia platform across three platforms at GameNite (React Native mobile, Next.js web, Node backend) and shipped the first MVP for Flowva (React TS, Tailwind, Supabase), which now serves 4,000+ users. I bring backend rigour, frontend craft, and a sharp product sense to whatever surface the work shows up on.",

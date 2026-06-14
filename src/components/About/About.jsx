@@ -33,7 +33,7 @@ const About = ({ data }) => {
                     ))}
                   </ul>
                   <div className="st-text-block-btn">
-                    <a className='st-btn st-style1 st-color1' href={cvPdf} download>Download Elijah's CV</a>
+                    <a className='st-btn st-style1 st-color1' href={cvPdf} target="_blank" rel="noopener noreferrer">View Elijah&apos;s CV</a>
                   </div>
                 </div>
               </div>
