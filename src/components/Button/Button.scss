@@ -47,6 +47,22 @@
   }
 }
 
+.st-btn.st-style1.st-color2 {
+  background-color: transparent;
+  color: $primary-soft;
+  border: 1px solid rgba($primary, 0.5);
+
+  &:hover {
+    background-color: rgba($primary, 0.12);
+    border-color: $primary;
+    color: $on-surface;
+    box-shadow: none;
+  }
+  &:active {
+    background-color: rgba($primary, 0.2);
+  }
+}
+
 .st-hero-btn-group {
   .st-btn:not(:last-child) {
     margin-right: 12px;

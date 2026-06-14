@@ -3,7 +3,7 @@ import './About.scss';
 import SectionHeading from '../SectionHeading/SectionHeading';
 
 const About = ({ data }) => {
-  const { imgLink, title, subtitle, text, details, cvPdf } = data;
+  const { imgLink, title, subtitle, text, details, cvPdf, recommendationPdf } = data;
   return (
     <section id="about" className="st-about-wrap">
       <div className="st-height-b100 st-height-lg-b80"></div>
@@ -34,6 +34,9 @@ const About = ({ data }) => {
                   </ul>
                   <div className="st-text-block-btn">
                     <a className='st-btn st-style1 st-color1' href={cvPdf} target="_blank" rel="noopener noreferrer">View Elijah&apos;s CV</a>
+                    {recommendationPdf && (
+                      <a className='st-btn st-style1 st-color2' href={recommendationPdf} target="_blank" rel="noopener noreferrer">Recommendation Letter</a>
+                    )}
                   </div>
                 </div>
               </div>
