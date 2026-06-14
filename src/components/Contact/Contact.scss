@@ -21,20 +21,22 @@
 .st-form-field textarea {
   display: block;
   width: 100%;
-  color: $base-color2;
+  color: $on-surface;
   padding: 12px 20px;
   border: 1px solid $base-color4;
   background-color: $dark-color4;
   height: 52px;
-  border-radius: 7px;
-  transition: all 0.4s ease;
+  border-radius: $radius-sm;
+  transition: border-color $dur $ease-out-soft, box-shadow $dur $ease-out-soft;
 
   &::placeholder {
-    color: $dark-color5;
+    color: rgba($on-surface-muted, 0.7);
   }
 
-  &:focus {
-    border-color: $base-color1;
+  &:focus,
+  &:focus-visible {
+    border-color: $primary;
+    box-shadow: $ring;
     outline: 0;
   }
 }

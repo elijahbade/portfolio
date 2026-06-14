@@ -1,30 +1,50 @@
 @import "../../sass/default/variable";
-.st-btn.st-style1{
+.st-btn.st-style1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  gap: 8px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   line-height: 1.5em;
-  font-weight: 500;
-  padding: 12px 1.5em;
-  border-radius: 50px;
-  min-width: 170px;
+  font-weight: 600;
+  padding: 14px 1.9em;
+  min-height: 48px; // skill: touch target >=44px
+  border-radius: $radius-pill;
+  min-width: 168px;
   border: none;
   outline: none;
-  transition: all 0.4s ease;
+  cursor: pointer;
+  letter-spacing: 0.01em;
   text-transform: capitalize;
+  transition: transform $dur-fast $ease-out-soft,
+    box-shadow $dur $ease-out-soft, background-color $dur $ease-out-soft;
 }
 
 .st-btn.st-style1:hover {
-  transform: translateY(-1px);
-  box-shadow: 0px 5px 10px 0px #fec64450;
-  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px -8px rgba($primary, 0.55);
+}
+
+.st-btn.st-style1:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px -6px rgba($primary, 0.5);
+}
+
+.st-btn.st-style1:focus-visible {
+  box-shadow: $ring, 0 10px 24px -8px rgba($primary, 0.45);
 }
 
 .st-btn.st-style1.st-color1 {
-  background-color: $base-color1;
-  color: $dark-color2;
+  background-color: $primary;
+  color: #ffffff;
+
+  &:hover {
+    background-color: $primary-soft;
+  }
+  &:active {
+    background-color: $primary-deep;
+  }
 }
 
 .st-hero-btn-group {
@@ -36,6 +56,6 @@
 @media screen and (max-width: 991px) {
   .st-btn.st-style1 {
     font-size: 14px;
-    padding: 0.72em 1.8em;
+    padding: 0.8em 1.8em;
   }
 }

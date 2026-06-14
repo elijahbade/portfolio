@@ -29,19 +29,23 @@ margin-bottom: 0;
 }
 
 .st-progressbar-percentage {
-color: $base-color1;
-font-weight: 400;
+color: $primary-soft;
+font-weight: 500;
+font-variant-numeric: tabular-nums;
 }
 
 .st-progressbar {
 width: 100%;
-height: 2px;
-background-color: $dark-color5;
+height: 6px;
+border-radius: $radius-pill;
+background-color: rgba($dark-color5, 0.5);
+overflow: hidden;
 }
 
 .st-progressbar-in {
-background-color: $base-color1;
-height: 2px;
+background: linear-gradient(90deg, $primary, $primary-soft);
+height: 6px;
+border-radius: $radius-pill;
 }
 
 @media screen and (max-width: 991px) {

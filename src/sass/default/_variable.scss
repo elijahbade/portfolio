@@ -1,12 +1,58 @@
-// Base Color
-$base-color1: #fec544;
-$base-color2: #a9adb8;
-$base-color3: #fdfeff;
-$base-color4: #232935;
+// =============================================================
+//  Brand palette — indigo-violet derived from the EA logo
+//  (logo gradient ranges ~#6060C0 indigo → #7050B0 violet)
+// =============================================================
 
-// Dark Color
-$dark-color1: #151b29;
-$dark-color2: #070d1b;
-$dark-color3: #0a101e;
-$dark-color4: #101624;
-$dark-color5: #3f4551;
+// --- Brand (semantic) ---
+$primary:        #8167f0; // interactive accent / CTA  (>=4.5:1 on $surface)
+$primary-deep:   #5b45be; // pressed / deep surfaces
+$primary-soft:   #a992f7; // highlights, small accent text on dark
+$accent:         #2fd4c4; // restrained complementary teal — small highlights only
+
+// --- Surfaces (violet-tinted dark, distinct from the stock navy) ---
+$surface:        #0c0a18; // page background base
+$surface-raised: #16122a; // cards / elevated panels
+$surface-2:      #1e1838; // hover / higher elevation
+$border:         #2a2348; // hairline borders & dividers
+
+// --- Text ---
+$on-surface:        #eceaf6; // primary text
+$on-surface-muted:  #a39ebe; // secondary text (>=3:1 on $surface)
+
+// --- Status ---
+$danger:   #f0566b;
+$success:  #34d399;
+
+// =============================================================
+//  Legacy aliases — keep existing component references working,
+//  now re-skinned to the purple brand.
+// =============================================================
+$base-color1: $primary;            // was gold accent
+$base-color2: $on-surface-muted;   // muted body text
+$base-color3: $on-surface;         // headings / white text
+$base-color4: $border;             // card borders
+
+$dark-color1: $surface-raised;
+$dark-color2: $surface;
+$dark-color3: #0e0b1c;             // body background
+$dark-color4: $surface-raised;     // card fills
+$dark-color5: #3a3358;             // muted lines / inactive icons
+
+// =============================================================
+//  Design tokens (skill-aligned: radius / motion / elevation)
+// =============================================================
+$radius-sm: 10px;
+$radius:    16px;
+$radius-lg: 22px;
+$radius-pill: 9999px;
+
+// Motion — micro 150–300ms, soft ease-out for entrances
+$ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+$ease-in-soft:  cubic-bezier(0.55, 0, 0.68, 0.53);
+$dur-fast: 0.18s;
+$dur:      0.28s;
+
+// Elevation
+$shadow-card:  0 18px 40px -24px rgba(0, 0, 0, 0.75);
+$shadow-glow:  0 0 0 1px rgba($primary, 0.35), 0 22px 60px -22px rgba($primary, 0.45);
+$ring:         0 0 0 3px rgba($primary, 0.45); // focus-visible ring

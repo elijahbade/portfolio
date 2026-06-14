@@ -4,14 +4,14 @@
     "imgLink": "/images/section/hero-img.jpg",
     "title": "Elijah <br /> Ajibade",
     "subTitle": "Hello, I’m",
-    "designation": "Full Stack Software Developer"
+    "designation": "Full Stack & Product Engineer"
   },
   "aboutData": {
     "imgLink": "/images/section/about.jpg",
     "cvPdf": "/images/Resume.pdf",
     "title": "Hi There! I'm Elijah Ajibade",
-    "subtitle": "Full Stack Software Developer With A Cutting Edge Product Sense",
-    "text": "Results-driven software engineer with a strong foundation in Mathematical Science (Computer Science), expertise in modern programming technologies, and a track record of delivering scalable, high-quality solutions. Highly skilled in team collaboration and committed to continuous learning, I strive to solve real-world challenges and contribute to organizational success. Seeking a challenging and rewarding opportunity where I can contribute my skills and experience to solve real world problems!",
+    "subtitle": "Full Stack & Product Engineer Who Ships End to End",
+    "text": "Full stack and product engineer with 3+ years of production experience across web, mobile, and email surfaces. I currently lead product and engineering at gotdot.it, a Microsoft Outlook add-in for sales teams, owning everything from schema design through React UI to AWS deployment. Previously I built a real-time multiplayer trivia platform across three platforms at GameNite (React Native mobile, Next.js web, Node backend) and shipped the first MVP for Flowva (React TS, Tailwind, Supabase), which now serves 4,000+ users. I bring backend rigour, frontend craft, and a sharp product sense to whatever surface the work shows up on.",
     "details": [
       {
         "title": "Birthday",
@@ -19,7 +19,7 @@
       },
       {
         "title": "Phone",
-        "info": "+234 806 990 5698"
+        "info": "+234 808 333 9060"
       },
       {
         "title": "Email",
@@ -27,7 +27,7 @@
       },
       {
         "title": "From",
-        "info": "Oyo, Nigeria"
+        "info": "Lagos, Nigeria"
       },
       {
         "title": "Language",
@@ -56,16 +56,16 @@
         },
         {
           "imgLink": "/images/icon/icon2.png",
-          "title": "Frontend Development",
-          "text": "Creating responsive and interactive web interfaces using React, Angular, and modern CSS frameworks like Tailwind and Bootstrap for optimal user experiences.",
+          "title": "Frontend & Mobile",
+          "text": "Building responsive web and cross-platform mobile apps with React, Next.js, and React Native (iOS/Android), styled with Tailwind and powered by Redux Toolkit and TypeScript.",
           "effect": "zoom-out-up",
           "duration": "500",
           "delay": "300"
         },
         {
           "imgLink": "/images/icon/icon3.png",
-          "title": "Backend Development",
-          "text": "Building scalable server-side applications using Node.js, Express, and PHP, with expertise in both SQL and NoSQL database management.",
+          "title": "Backend & Systems",
+          "text": "Designing scalable services with Node.js/Express and Laravel, real-time systems on Socket.IO and SSE, and provider-agnostic abstractions for multi-source integration across SQL and NoSQL stores.",
           "effect": "zoom-out-up",
           "duration": "500",
           "delay": "400"
@@ -88,8 +88,8 @@
         },
         {
           "imgLink": "/images/icon/icon6.png",
-          "title": "Expert Trainer",
-          "text": "Experienced in facilitating digital skills training programs and technical workshops, with a proven track record of successful knowledge transfer.",
+          "title": "AI Feature Engineering",
+          "text": "Shipping production LLM features on Azure OpenAI: thread classification, task and contact extraction, deal-health scoring, natural-language search, and SSE-streamed generation.",
           "effect": "zoom-out-up",
           "duration": "500",
           "delay": "700"
@@ -98,46 +98,46 @@
     },
     "skillData": {
       "title": "Technical Expertise and Professional Skills",
-      "text": "I bring expertise in modern web technologies and a commitment to delivering high-quality solutions. My experience spans full-stack development, with particular strength in the MERN stack and TypeScript, complemented by strong problem-solving and collaboration skills.",
+      "text": "I bring backend rigour, frontend craft, and a sharp product sense across web, mobile, and email surfaces. My strengths span TypeScript full-stack development, React/React Native, real-time systems, cloud infrastructure on AWS, and production LLM integration on Azure OpenAI.",
       "skills": [
         {
-          "title": "JavaScript (TypeScript)",
+          "title": "TypeScript / JavaScript (ES6+)",
           "progress": "95%",
           "effect": "fade-up",
           "duration": "500",
           "delay": "200"
         },
         {
-          "title": "React",
-          "progress": "90%",
+          "title": "React / Next.js / React Native",
+          "progress": "92%",
           "effect": "fade-up",
           "duration": "500",
           "delay": "300"
         },
         {
-          "title": "Node.js/Express",
-          "progress": "85%",
+          "title": "Node.js / Express & Laravel",
+          "progress": "88%",
           "effect": "fade-up",
           "duration": "500",
           "delay": "400"
         },
         {
-          "title": "MongoDB/MySQL",
-          "progress": "80%",
+          "title": "PostgreSQL / Prisma & NoSQL (Mongo, DynamoDB)",
+          "progress": "85%",
           "effect": "fade-up",
           "duration": "500",
           "delay": "500"
         },
         {
-          "title": "HTML/CSS",
-          "progress": "90%",
+          "title": "AWS (Lambda, DynamoDB, S3, Cognito, RDS) & Terraform",
+          "progress": "80%",
           "effect": "fade-up",
           "duration": "500",
           "delay": "600"
         },
         {
-          "title": "PHP",
-          "progress": "75%",
+          "title": "AI / LLM Integration (Azure OpenAI)",
+          "progress": "85%",
           "effect": "fade-up",
           "duration": "500",
           "delay": "700"
@@ -147,31 +147,40 @@
   "portfolioData": {
     "portfolioItems": [
       {
-        "imgLink": "/images/portfolio/portfolio.jpg",
-        "imgLinkLg": "/images/portfolio/portfolio1.jpg",
-        "title": "Porfolio Website",
-        "subTitle": "I developed this sleek portfolio website you're currently browsing!",
+        "imgLink": "/images/portfolio/gotdot.png",
+        "imgLinkLg": "/images/portfolio/gotdot.png",
+        "title": "gotdot.it — Outlook Revenue Intelligence",
+        "subTitle": "An email-native Microsoft Outlook add-in for sales teams. I lead product and engineering end to end: a 28-method provider-agnostic CRM abstraction, a Prisma/PostgreSQL data layer, and four production AI feature phases on Azure OpenAI (thread analysis, task & contact extraction, SSE-streamed reply composition, and deal-health scoring with NL search). Live with Zoho CRM in production.",
         "effect": "fade-up",
         "duration": "500",
         "delay": "200"
       },
       {
-        "imgLink": "/images/portfolio/levcom.jpg",
-        "imgLinkLg": "/images/portfolio/levcom1.jpg",
-        "title": "LevCom Online Store",
-        "subTitle": "I developed an enterprise level ecommerce app that leverages on the shared economy to provide goods and services at an affordable rate to Nigerians",
+        "imgLink": "/images/portfolio/gamenite.png",
+        "imgLinkLg": "/images/portfolio/gamenite.png",
+        "title": "GameNite — Real-Time Multiplayer Trivia",
+        "subTitle": "A real-time multiplayer trivia platform shipped across three surfaces: React Native apps for iOS and Android (25+ screens), a Next.js 15 web client, and a Node.js + Socket.IO backend for matchmaking, live scoring, and leaderboards. Backed by multi-environment AWS infrastructure (Lambda, DynamoDB, S3, Cognito, RDS) provisioned with Terraform.",
         "effect": "fade-up",
         "duration": "500",
         "delay": "300"
       },
       {
-        "imgLink": "/images/portfolio/vconcepts.jpg",
-        "imgLinkLg": "/images/portfolio/vconcepts1.jpg",
-        "title": "V-Concepts LTD Coporate Website",
-        "subTitle": "I designed  a responsive and intutive website  (with an online bookshop inegrated) for a publishing firm using WordPress.",
+        "imgLink": "/images/portfolio/flowva.jpg",
+        "imgLinkLg": "/images/portfolio/flowva.jpg",
+        "title": "Flowva — Productivity MVP (4,000+ users)",
+        "subTitle": "I owned the first MVP for a new product direction end to end, building it in three months on React TS, Tailwind, Supabase, and PostgreSQL. The product now serves 4,000+ users, helping businesses and freelancers save time and cost. I contributed product and UX direction alongside engineering.",
         "effect": "fade-up",
         "duration": "500",
         "delay": "400"
+      },
+      {
+        "imgLink": "/images/portfolio/vconcepts.jpg",
+        "imgLinkLg": "/images/portfolio/vconcepts1.jpg",
+        "title": "V-Concepts LTD Corporate Website",
+        "subTitle": "I designed a responsive and intuitive website (with an online bookshop integrated) for a publishing firm using WordPress.",
+        "effect": "fade-up",
+        "duration": "500",
+        "delay": "500"
       }
     ]
   },
@@ -283,7 +292,7 @@
         "imgLink": "/images/client/laz.png",
         "title": "Mr. Lazarus Irakpo",
         "designation": "Team Lead, LearneryResort.com",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam accusamus autem itaque blanditiis enim debitis totam facilis reiciendis voluptate aspernatur!"
+        "text": "Elijah Ajibade is a very resilient, determined and diligent young man who has a burning passion for tech. He has been very consistent, learning and acquiring up-to-date skills. He has created a lot of amazing websites for clients, including the one for my company. I will gladly recommend him to anyone who desires to have an official website or build applications."
       },
       {
         "imgLink": "/images/client/sarah.png",
@@ -304,38 +313,61 @@
     "experienceTitle": "Experience",
     "experience": [
       {
-        "title": "Software Engineering Fellow",
-        "duration": "2024 - 2025",
-        "subTitle": "Brave Redemptive Fellowship",
-        "text": "Deepened my knowledge of the MERN STACK, learnt  how to built enterprise-level software solutions,  I also learnt and practiced more advanced level software development concepts and best practices. I also learnt product sense making, systems thinking, collaboration, among others"
+        "title": "Product & Full Stack Software Engineer",
+        "duration": "Jan 2026 - Present",
+        "subTitle": "gotdot.it (Full-time, Remote)",
+        "text": "Leading end-to-end product and engineering for an email-native revenue-intelligence Outlook add-in. Shipped a production add-in integrated with Microsoft Graph and MSAL (live with Zoho CRM), a 28-method provider-agnostic CRM abstraction, a Prisma/PostgreSQL data layer, and four AI feature phases on Azure OpenAI. Replaced a 645-line keyword classifier with an LLM-driven thread-analysis service and closed a cross-user AI cache leak via per-user scoping."
       },
       {
-        "title": "Web Developer (LAMP Stack)",
-        "duration": "Jan 2023 - April 2024",
-        "subTitle": "Better Place LTD",
-        "text": "Designed and developed websites and landing pages that brought in up to 800% return on investment. Setup information systems and basic networking infrastructure that increased operational efficiency."
+        "title": "Web & Mobile Developer",
+        "duration": "Jun 2025 - Dec 2025",
+        "subTitle": "GameNite App (Full-time, Remote, USA)",
+        "text": "Built a real-time multiplayer trivia platform across three platforms: React Native apps for iOS and Android (25+ screens), a Next.js 15 web client, and a Node.js + Socket.IO backend for gameplay sync, matchmaking, live scoring, and leaderboards. Shipped 20+ REST endpoints and stood up multi-environment AWS infrastructure (Lambda, DynamoDB, S3, Cognito, RDS) via Terraform."
+      },
+      {
+        "title": "Software Engineering Fellow",
+        "duration": "Jul 2024 - Jun 2025",
+        "subTitle": "Brave Redemptive Fellowship (Residential, Ogbomoso, Nigeria)",
+        "text": "One of 24 fellows selected from hundreds of applicants for a fully funded ($5,000) year-long residential programme. As a frontend engineer on Preview AI, an LLM-powered hiring tool, I built reusable React/TypeScript components and integrated LLM APIs. I also led an analytics sub-team that produced growth strategy recommendations for marketing campaigns."
+      },
+      {
+        "title": "Product & Full Stack Software Engineer",
+        "duration": "Mar 2025 - May 2025",
+        "subTitle": "Flowva (Contract, Remote, Canada)",
+        "text": "Owned the first MVP for a new product direction end to end, building it in three months on React TS, Tailwind, Supabase, and PostgreSQL. The product now serves 4,000+ users. Contributed product and UX direction alongside engineering, focused on time and cost savings for businesses and freelancers."
+      },
+      {
+        "title": "Back End Developer",
+        "duration": "Feb 2025 - Apr 2025",
+        "subTitle": "ActsSocial (Contract, Remote, USA)",
+        "text": "Designed and shipped 30+ Laravel REST API endpoints with full models, migrations, controllers, and resources for engagement and analytics features. Stack: PHP, Laravel, MySQL, and Eloquent ORM, with unit, feature, and integration testing."
+      },
+      {
+        "title": "Web Developer",
+        "duration": "Jan 2023 - Jun 2024",
+        "subTitle": "Better Place LTD, Lagos (Full-time, On-site)",
+        "text": "Designed and shipped websites and landing pages delivering up to 800% ROI. Set up information systems and networking infrastructure that lifted operational efficiency by ~15%."
       }
     ],
     "educationTitle": "Education & Certifications",
     "education": [
       {
-        "title": "Bachelor of Technology, Mathematical Sciences (Computer Science)",
-        "duration": "2017 - 2022",
+        "title": "B.Tech, Mathematical Sciences (Computer Science)",
+        "duration": "2017 - 2023",
         "subTitle": "Olusegun Agagu University of Science and Technology (OAUSTECH)",
-        "text": "Graduated among the top in my class, while contributing to community development via the Techtiary Club and the National Association of Computer Science Students (NACOS) among others. I also took courses on C++ and Java."
+        "text": "Second Class Honours, Upper Division. Key modules: Artificial Intelligence, Computer Architecture, Computer Logic, and Computer Networking. Served as Director of Hardware & Software for the NACOS OAUSTECH chapter (Certificate of Leadership)."
       },
       {
-        "title": "SHE Hacks Africa Coding Bootcamp",
-        "duration": "November 2018",
-        "subTitle": "Working to Advance Science and Technology Education for African Women (WAAW Foundation)",
-        "text": "Took a deep dive into Version control, HTML, CSS, JavaScript, Apache/MySQL, PHP, Node.js and ionic framework. My team and I built an Electronic Medical Records (EMR) website as our capstone project, emerging as first runners up in the demo"
+        "title": "Microsoft Applied Skills & Professional Certificates",
+        "duration": "2025",
+        "subTitle": "Microsoft",
+        "text": "Applied Skills: Accelerate App Development by Using GitHub Copilot, and Professional Certificate: Introduction to Generative AI. Also completed Postman API Fundamentals (2025)."
       },
-
       {
-        "title": "Android Development Course For Beginners",
-        "duration": "2017",
-        "subTitle": "Google x Andela (Andela Learning Community) x Udacity ",
-        "text": "I took a deep dive into Java, building a basic ordering app as my capstone project!"
+        "title": "SHE Hacks Africa Coding & Entrepreneurship Bootcamp",
+        "duration": "2018",
+        "subTitle": "WAAW Foundation",
+        "text": "Deep dive into version control, HTML, CSS, JavaScript, Apache/MySQL, PHP, Node.js, and the Ionic framework. My team built an Electronic Medical Records (EMR) website as our capstone, emerging as first runners-up."
       }
     ]
   },

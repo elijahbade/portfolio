@@ -7,20 +7,21 @@
   margin-bottom: 41px;
 
   .st-section-heading-title {
-    font-size: 24px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: 600;
     text-transform: uppercase;
-    color: $base-color1;
+    color: $primary-soft;
     position: relative;
     z-index: 10;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 
     &::before {
       content: "";
       position: absolute;
-      background-color: $dark-color5;
+      background-color: rgba($dark-color5, 0.6);
       width: 170px;
       height: 2px;
+      border-radius: $radius-pill;
       bottom: -16px;
       left: 50%;
       transform: translateX(-50%);
@@ -29,9 +30,10 @@
     &::after {
       content: "";
       position: absolute;
-      background-color: $base-color1;
+      background: linear-gradient(90deg, $primary, $accent);
       width: 70px;
       height: 2px;
+      border-radius: $radius-pill;
       bottom: -16px;
       left: 50%;
       transform: translateX(-50%);
@@ -44,9 +46,11 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    font-family: "Clash Display", "Inter", sans-serif;
     font-size: 90px;
-    font-weight: 700;
-    color: rgba($dark-color1, 0.5);
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    color: rgba($primary, 0.08);
     margin: 0;
     margin-top: -17px;
     width: 100%;

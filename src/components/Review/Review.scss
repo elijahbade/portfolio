@@ -2,22 +2,26 @@
 .st-testimonial.st-style1 {
   &:hover {
     .st-testimonial-name {
-      color: $base-color1;
+      color: $primary-soft;
     }
     .st-testimonial-text {
-      border-color: $base-color1;
+      border-color: rgba($primary, 0.55);
+      background-color: $surface-2;
+      box-shadow: $shadow-glow;
       &::after {
-        border-color: $base-color1;
+        border-color: rgba($primary, 0.55);
+        background: $surface-2;
       }
     }
   }
 
   .st-testimonial-text {
     position: relative;
-    border-radius: 3px;
-    transition: all 0.4s ease;
+    border-radius: $radius;
+    transition: transform $dur $ease-out-soft, box-shadow $dur $ease-out-soft,
+      border-color $dur $ease-out-soft, background-color $dur $ease-out-soft;
     background-color: $dark-color4;
-    padding: 30px 15px;
+    padding: 32px 24px;
     border: 1px solid $base-color4;
     margin-bottom: 40px;
 
@@ -32,7 +36,7 @@
       border-width: 0 1px 1px 0;
       background: $dark-color4;
       transform: translateX(-50%) rotate(45deg);
-      transition: all 0.4s ease;
+      transition: all $dur $ease-out-soft;
     }
 
     p {

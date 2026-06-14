@@ -71,12 +71,17 @@
           display: inline-block;
           color: $base-color3;
           text-transform: uppercase;
-          font-family: "Roboto", sans-serif;
+          font-family: "Inter", sans-serif;
           font-weight: 500;
           cursor: pointer;
+          transition: color $dur-fast $ease-out-soft;
+
+          &:hover {
+            color: $primary-soft;
+          }
 
           &.active {
-            color: $base-color1;
+            color: $primary;
           }
         }
       }
@@ -164,12 +169,12 @@
       position: absolute;
       width: 100vw;
       left: 0;
-      background-color: #070d1b;
+      background-color: $surface;
       padding: 10px 0;
       display: none;
       top: 100%;
-      border-top: 1px solid #101624;
-      border-bottom: 1px solid #101624;
+      border-top: 1px solid $border;
+      border-bottom: 1px solid $border;
       overflow: auto;
       max-height: calc(100vh - 80px);
 
@@ -207,7 +212,7 @@
     span:after {
       width: 100%;
       height: 2px;
-      background-color: #666;
+      background-color: $on-surface-muted;
       display: block;
     }
 

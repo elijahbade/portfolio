@@ -1,4 +1,32 @@
 @import './variable.scss';
+
+// --- Accessibility & global polish (skill: focus-states, reduced-motion) ---
+:focus-visible {
+  outline: none;
+  box-shadow: $ring;
+  border-radius: $radius-sm;
+}
+
+::selection {
+  background: rgba($primary, 0.35);
+  color: $on-surface;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
 .container {
   max-width: 1140px;
 }

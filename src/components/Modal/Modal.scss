@@ -1,14 +1,47 @@
 @import '../../sass/default/variable';
 
+.bd-example-modal-lg {
+  .modal-content {
+    background-color: $surface-raised;
+    border: 1px solid $border;
+    border-radius: $radius-lg;
+    overflow: hidden;
+  }
 
-.modal-title,
-.modal-subtitle{
-  color: $base-color4;
+  .modal-header {
+    border-bottom: 1px solid $border;
+  }
+
+  .modal-title {
+    color: $on-surface;
+    font-family: "Clash Display", "Inter", sans-serif;
+  }
+
+  .modal-subtitle {
+    color: $on-surface-muted;
+    margin-top: 18px;
+    margin-bottom: 0;
+  }
+
+  .btn-close {
+    filter: invert(1) grayscale(1) brightness(1.6);
+    opacity: 0.7;
+    transition: opacity $dur-fast $ease-out-soft;
+
+    &:hover {
+      opacity: 1;
+    }
+    &:focus-visible {
+      box-shadow: $ring;
+    }
+  }
 }
 
-.modal-body img{
+.st-modal-media {
   width: 100%;
-  margin-bottom: 20px;
+  max-height: 70vh;
+  border-radius: $radius;
+  display: block;
+  background: $surface;
+  object-fit: contain;
 }
-
-
